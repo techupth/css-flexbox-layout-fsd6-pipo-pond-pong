@@ -1,1 +1,46 @@
-/* Start coding here */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: lightseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.body {
+  display: flex;
+  gap: 3px;
+}
+
+.body div {
+  height: 500px;
+  flex: 1;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div .nav {
+  flex-basis: 25%;
+}
+
+div .content {
+  flex-basis: 50%;
+}
+
+div .adv {
+  flex-basis: 25%;
+}
+
+footer {
+  background-color: khaki;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
