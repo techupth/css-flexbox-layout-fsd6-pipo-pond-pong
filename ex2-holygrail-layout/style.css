@@ -1,1 +1,85 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(107, 106, 106);
+    border-bottom: 1px solid white;
+}
+
+header {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 800px;
+    background-color: white;
+    gap: 1px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.nav-side {
+    background-color: orangered;
+    height: 800px;
+    width: 500px;
+    padding: 0px 10px 0px 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-side {
+    background-color: orangered;
+    height: 800px;
+    width: 900px;
+    padding: 0px 10px 0px 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ad-side {
+    background-color: orangered;
+    height: 800px;
+    width: 600px;
+    padding: 0px 10px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: rgb(219, 245, 104);
+    border-top: 1px solid white;
+    font-size: 20px;
+    font-weight: 500;
+}
